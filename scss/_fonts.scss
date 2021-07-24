@@ -1,0 +1,19 @@
+@mixin font ($color, $font-family) {
+    color: $color;
+    font-family: $font-family;
+}
+
+#navbar {
+    #logo {
+        @include font ( white, ('Fuggles', cursive));
+    }
+}
+
+.leyenda {
+    .h3 {
+        @include font(white, ('Merriweather', serif))
+    }
+    .h6 {
+        @include font(white, ('Merriweather', serif))
+    }
+}

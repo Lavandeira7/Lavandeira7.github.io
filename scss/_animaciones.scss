@@ -1,0 +1,16 @@
+.animacion {
+    transition: all 2s;
+}
+
+.animacion:hover {
+    transform: scale(1.5, 1);
+}
+
+.animacion2 {
+    transition: all 2s;
+    margin: $margin;
+}
+
+.animacion2:hover {
+    transform: translate(10px, 20px);
+}

@@ -1,0 +1,19 @@
+$colorfondo:grayscale($color: #463939);
+$color:white;
+$margin: 15px;
+body {
+    background-color: $colorfondo;
+    color: $color;
+}
+
+.leyenda {
+    background-color: $colorfondo;
+}
+
+.resenas {
+    margin: $margin;
+}
+
+.registro {
+    margin: $margin;
+}

@@ -1,0 +1,55 @@
+.signIn {
+  background-color: grey;
+  border: radius;
+  color: white;
+}
+
+#navbar #logo {
+  color: white;
+  font-family: "Fuggles", cursive;
+}
+
+.leyenda .h3 {
+  color: white;
+  font-family: "Merriweather", serif;
+}
+.leyenda .h6 {
+  color: white;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: #404040;
+  color: white;
+}
+
+.leyenda {
+  background-color: #404040;
+}
+
+.resenas {
+  margin: 15px;
+}
+
+.registro {
+  margin: 15px;
+}
+
+.animacion {
+  transition: all 2s;
+}
+
+.animacion:hover {
+  transform: scale(1.5, 1);
+}
+
+.animacion2 {
+  transition: all 2s;
+  margin: 15px;
+}
+
+.animacion2:hover {
+  transform: translate(10px, 20px);
+}
+
+/*# sourceMappingURL=style.css.map */

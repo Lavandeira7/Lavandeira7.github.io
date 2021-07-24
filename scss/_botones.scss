@@ -1,0 +1,9 @@
+@mixin button-variant ($background, $border, $color) {
+    background-color: $background;
+    border: $border;
+    color: $color;
+}
+
+.signIn {
+    @include button-variant(grey, radius, white)
+}
